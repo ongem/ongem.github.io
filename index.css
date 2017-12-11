@@ -8,7 +8,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+.text-justify {
     text-align: justify;
+}
+.valign {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.imgpad {
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.imgresize {
+    width: 85%;
+    height: 85%;
 }
 .shadow {
     text-shadow:7px 7px 10px rgb(202, 122, 192);
@@ -42,23 +58,20 @@ body {
     padding-bottom: 30px;
     padding-top:    50px;
 }
-#jumbo2box {
+.jumbo2 {
     background-image: url("images/xmaswallpaper.jpg");
-}
-#box-a {
-    width:  150px;
-    height: 150px;
-    border: red 2px solid;
-    background-color: pink;
-    box-shadow: 0px 0px 0px grey;
-    transform: translate(50px; 150px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:    200px;
+    margin-right:   200px;
+    margin-top:
+    position: relative;
+    left: auto;
+    right: auto;
+    padding: 50px 0;
+    text-align: center;
+    overflow:  hidden;
 
-    transition-property: box-shadow, opacity;
-    transition-duration: 300ms;
-    transition-timing-function: linear;
-}
-#box-a:hover {
-    box-shadow: 7px 7px 7px grey;
 }
 .menuitem {
     display:inline;
@@ -74,14 +87,9 @@ body {
     transition-duration: 200ms;
     transition-timing-function: linear;
 }
-.rot45 {
-    font-size:  3em;
-    text-shadow: 7px 7px 1px grey;
-    transform: translate(100px)
-}
 .fontbox {
-    font-size:  1em !important;
-    font-family: Tahoma;
+    font-size:  1em;
+    font-family: 'Quicksand', sans-serif;
 }
 .circle-square{
     border-radius:50%;
@@ -111,4 +119,6 @@ body {
     overflow-x: hidden;
     text-align: justify;
 }
-
+.paddingtop {
+    padding-top: 20px;
+}
