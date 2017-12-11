@@ -8,10 +8,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.text-container {
-    vertical-align: middle;
-    text-align: center;
+    text-align: justify;
 }
 .shadow {
     text-shadow:7px 7px 10px rgb(202, 122, 192);
@@ -33,6 +30,21 @@ body {
     height: auto; 
     display: block;
 }
+.img-center {
+    text-align: center;
+}
+.jumbotron {
+    background-image: url("images/blueflakes.jpg");
+    margin-left:    55px;
+    margin-right:   55px;
+    margin-bottom:  30px;
+    margin-top:     30px;
+    padding-bottom: 30px;
+    padding-top:    50px;
+}
+#jumbo2box {
+    background-image: url("images/xmaswallpaper.jpg");
+}
 #box-a {
     width:  150px;
     height: 150px;
@@ -47,13 +59,12 @@ body {
 }
 #box-a:hover {
     box-shadow: 7px 7px 7px grey;
-
 }
 .menuitem {
     display:inline;
-    font-family:monospace;
+    font-family:Arial;
     font-size:1em;
-    background-color: lightskyblue;
+    background-color: #87fad7;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     padding: 5px;
@@ -72,19 +83,16 @@ body {
     font-size:  1em !important;
     font-family: Tahoma;
 }
-
 .circle-square{
     border-radius:50%;
 }
-
 .embed-responsive {
     position: relative;
     display: block;
     height: 0;
     padding: 0;
     overflow: hidden;
-  }
-
+}
 .embed-responsive-item {
     position: absolute;
     top: 0;
@@ -94,13 +102,13 @@ body {
     height: 100%;
     border: 0;
   }
-
 .embed-responsive-16by9 {
     padding-bottom: 56.25%;
-  }
-
+}
 .panel-body {
     height: 450px;
-    overflow-y: visible;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: justify;
 }
 
