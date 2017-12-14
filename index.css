@@ -59,20 +59,6 @@ body {
     padding-bottom: 30px;
     padding-top:    50px;
 }
-.jumbo2 {
-    background-image: url("images/xmaswallpaper.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left:    200px;
-    margin-right:   200px;
-    margin-top:
-    position: relative;
-    left: auto;
-    right: auto;
-    padding: 50px 0;
-    text-align: center;
-    overflow:  hidden;
-}
 .menuitem {
     display:inline;
     font-family:Arial;
@@ -120,5 +106,10 @@ body {
     text-align: justify;
 }
 .paddingtop {
-    padding-top: 20px;
+    padding-top: 25px;
+}
+.bg-image {
+    background-image: url("images/xmaswallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
